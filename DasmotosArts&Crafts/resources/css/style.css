@@ -1,0 +1,28 @@
+body {
+  font-family: Helvetica;   /* This makes the entire page use the font Helvetica*/
+}
+h1 {
+  font-size: 100px;
+  font-weight: bold;             /*This applies only to the h1 text "Dasmoto's Arts & Crafts"*/
+  color: khaki;
+  text-align: center;
+  background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-2/pattern.jpeg'); /*background of text. Tile pattern*/
+}
+h2 {
+  font-size: 32px;
+  font-weight: bold;          /*Changes font-size, makes font bold, and changes text color to white for Brushes, Frames, and Paint*/
+  color: white;
+}
+.brushes {
+  background-color: mediumspringgreen;  /*Class used to make h2 (Brushes) text background green*/
+}
+.frames {
+  background-color: lightcoral;  /*Class used to make h2 (Frames) text background coral*/
+}
+.paint {
+  background-color: skyblue; /*Class used to make h2 (Paint) text background sky blue*/
+}
+span {
+  font-weight: bold;  /*Targets the price per item in each paragraph.  Changes font to bold and color to blue*/
+  color: blue;
+}
